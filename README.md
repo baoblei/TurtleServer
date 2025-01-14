@@ -112,4 +112,4 @@ VS Code 调试配置已包含在 .vscode/launch.json 中：
 1. 确保先启动 Python AI 服务，再启动 Node.js 服务
 2. 检查 config.js 中的 AI 服务地址配置是否正确
 3. 确保 data/stories.json 文件存在且格式正确
-4. 日志文件将自动生成在 logs 目录下
+4. 日志文件将自动生成在 logs 目录下, 'npm run clean' 可以清理日志文件

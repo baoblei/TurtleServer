@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // 连接数据库
-mongoose.connect('mongodb://root:mh2hkbsg@dbconn.sealoshzh.site:48061/?directConnection=true')
+mongoose.connect('<url>')
   .then(() => console.log('数据库连接成功'))
   .catch(err => console.error('数据库连接失败:', err));
 
